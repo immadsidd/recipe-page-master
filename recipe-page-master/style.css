@@ -1,0 +1,273 @@
+.con1{
+    padding-top: 20px;
+    margin: auto;
+    width: 969px;
+    height: 700px;    
+}
+
+.con1 h1{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 20px;
+}
+
+.con1 p{
+    text-align: justify;
+    padding-left: 25px;
+    width: 592px;
+height: 51px;
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #4F4F4F;
+
+}
+
+.con1 img{
+    width: 969px;
+height: 470px;
+border-radius: 12px;
+}
+
+.con2{
+    position: absolute;
+    left:945px;
+    top:711px;
+    justify-content: center;
+    width: 216px;
+    height: 367px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+
+}
+.flexbox{
+    display: flex;
+    line-height: 0px;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px 0px 5px 0px;
+
+}
+
+.con3{
+    margin: auto;
+    width: 900px;
+    height: 700px;
+}
+.img{
+    margin: auto;
+}
+.p{
+    width: 80px;
+height: 12px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+text-transform: uppercase;
+color: #BDBDBD;
+
+}
+
+.orange{
+    width: 77px;
+height: 17px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #F2994A;
+
+}
+
+.pp{
+    width: 100px;
+    height: 17px;   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+
+.clock{
+    width:40px;
+    height:40px;
+}
+
+.ing{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+}
+.item{
+    font-family: 'Playfair Display';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #333333;
+}
+
+.l{
+    width: 543px;
+    height: 75px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #333333;
+
+}
+.box{
+    margin-right: 10px;
+   display:inline-block;
+    width: 36px;
+height: 36px;
+background: #F2994A;
+border-radius: 6px;
+color: white;
+text-align: center;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+.txt{
+    display:inline-table;
+    
+    width: 528px;
+
+font-family: 'Montserrat';
+font-style: normal;
+
+font-size: 16px;
+line-height: 150%;
+}
+
+.a{
+    width: 500px;
+height: 24px;
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #4b4b4b;
+}
+
+.footer{
+    margin-bottom: 30px;
+    position: absolute;
+width: 400px;
+height: 17px;
+left: 577px;
+top: 3000px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #3d3d3d;
+
+}
+
+.immad{
+    
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #3d3d3d;
+}
+
+@media screen and (max-width: 500px){
+    .con1 h1{
+        font-size: 24px;
+    }
+   
+    .con1 p{
+       font-size:12px;
+       width: 320px;
+       height: 88px;
+    }
+    .con1 img{
+        width: 350px;
+        height:213.83px;
+    }
+    
+    .con2  {
+        position: absolute;
+        left: 0px;
+        top: 320px;
+        background: none;
+        box-shadow: none;
+        padding: 10px;
+
+    }
+     .s1{
+         justify-content: left;
+     }
+   
+    .s2{
+        display: flex;
+    }
+    .p{
+        font-size: 8px;
+    }
+    .pp, .orange{
+        font-size: 10px;
+    }
+
+    .clock{
+        width: 25px;
+        height: 25px;
+    }
+    .con3{
+        left: 20px;
+        position: absolute;
+        top: 600px;
+        width: 375px;
+    }
+    .ing{
+        font-size: 18px;
+    }
+
+    .item{
+        font-size: 16px;
+    }
+
+    .l{
+        font-size: 14px;
+    }
+
+    .txt{
+        width:320px;
+
+    }
+
+    .a{
+        font-size: 12px;
+    }
+  
+    .footer{
+        left: 20px;
+        top: 3200px;
+    }
+
+}
